@@ -6,12 +6,16 @@
  * Made By MaterializeCSS.com
  */
  :root {
-    --main-color: #C8782f;
-    --text-color: #66202A;
-    --card-color: #75ACC0;
-    --light-color: #E1B878;
+    --main-color: #ffa726;
+    --text-color: #2e5455;
+    --card-color: #fff3e0;
+    --light-color: #fff3e0;
 }
 
+h1 {
+    color: var(--text-color);
+    font-size: 45px;
+}
 .nav-wrapper {
     background-color: var(--main-color);
 }
@@ -53,7 +57,3 @@ li {
     color: var(--text-color)
 }
 
-#work {
-    background-image: url(/assets/just-your-type.png);
-    background-size: cover;
-}
